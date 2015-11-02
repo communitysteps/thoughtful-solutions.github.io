@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    _Header &middot;   Process Manual
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/hyde.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- CSS menu -->
+  <link href="public/menu_source/styles.css" rel="stylesheet" type="text/css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type='text/javascript' src='public/menu_source/menu_jquery.js'></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span>Process Manual</span></a></li>
+               <li><a href='skills.html'><span>Basic Skills</span></a></li>
+               			   <li class='has-sub'><a href='#'><span>The Commandments</span></a>
+                  <ul>
+                     <li><a href='general.html'><span>General</span></a></li>
+                     <li><a href='coding.html'><span>Coding</span></a></li>
+					 <li><a href='testing.html'><span>Testing</span></a></li>
+					 <li><a href='design.html'><span>Design</span></a></li>
+                     <li><a href='estimating.html'><span>Estimating</span></a></li>
+                     <li class='last'><a href='managing.html'><span>Managing</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='questions.html'><span>Stakeholder Questions</span></a></li>
+               <li class='has-sub'><a href='#'><span>Requirement Gathering</span></a>
+                  <ul>
+				  <li><a href='mintro.html'><span>Introduction to Requirement Gathering</span></a></li>
+                     <li><a href='roles.html'><span>Roles</span></a></li>
+                     <li><a href='flow.html'><span>Approximate process flow</span></a></li>
+                     <li><a href='ResourceManager.html'><span>Resource Manager</span></a></li>
+                     <li class='last'><a href='verification.html'><span>Verification Criteria</span></a></li>
+                  </ul>
+               </li>
+               <li><a href='workflow.html'><span>Workflow</span></a></li>
+			   <li><a href='work.html'><span>Work Review</span></a></li>
+               <li class='has-sub'><a href='#'><span>Standing Up</span></a>
+                  <ul>
+                     <li><a href='standup.html'><span>Performing a Standup</span></a></li>
+                                          <li class='last'><a href='example.html'><span>Example</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='pmanagement.html'><span>Project Management</span></a></li>
+			    <li class='has-sub'><a href='#'><span>Techniques</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Cynefin</span></a></li>
+                     <li class='has-sub'><a href='kanban.html'><span>Kanban</span></a>
+                   </li>
+                  </ul>
+               </li>
+			   <li class='has-sub'><a href='#'><span>Examples</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Standard Pig</span></a></li>
+                     <li class='last'><a href='lego.html'><span>The Lego Game</span></a></li>
+                  </ul>
+               </li>
+                           </ul>
+        </div>
+
+       
+    </header>
+
+    <a href="https://github.com/thoughtful-solutions/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="title">Standing Up</h1>
+  <br />
+  We do standups to keep the team aware of what everyone is doing, and to identify roadblocks. Doing them on IRC means we can 
+    <ul style="list-style-type:disc">
+ <li>log the minutes </li>
+<li> have remote participants </li>
+<li> be in more than one standup at once (eg Project Manager) Standups should be short - approx 10 minutes. To make this happen attendees should have their minutes typed in advance, ready to cut and paste. Normally standups should be organised and run by the engineers, not the project manager. This is not to say that the project manager should not be present; indeed they should be there. Even projects involving one engineer working solo should create daily standup minutes. Obviously this is not ideal and we should normally aim to ensure that engineers are not working solo for long periods. In this case, engineers may be encouraged to simply email their standup notes to the internal project mailing list instead. To avoid wasting time, it is important for all participants to be prepared ahead of time, and to not wait long for people who’re present but not alert on IRC. Wake them up with whatever means, or start the standup without them. Otherwise a 10-minute standup may easily be preceded by a 15-minute wait for everyone to be be awake on IRC. Standups should be recorded in the project’s log. A good name for a standup file would be standup-YYYYMMDD.mdwn in the log directory. Don’t forget to give the standup a title and a date entry so that the log is kept in order. All engineers and managers associated with any given project should be capable of 
+running a standup, logging the activity and pushing standup minutes to the project management wiki. </li></ul>
+
+<b>Performing a standup: Characters</b>
+    <ul style="list-style-type:disc">
+ <li>The Host </li>
+<li> The Engineers (Engineer 1, Engineer 2, Engineer 3) </li>
+<li> The Absent Engineers (Engineer 4)</li></ul>
+
+The format of the engineers’ minutes may vary but the minutes posted by everyone usually include the same things: done, doing, today/next, issues/points. The host drives the meeting, as follows: 
+<ul style="list-style-type:disc">
+<li> the host pings on IRC a short while in advance, eg ‘standup in 17 minutes’ </li>
+<li> engineers prepare their standup comments </li>
+<li> at the start time, the host asks engineers to indicate their presence </li>
+<li> the engineers participating in the meeting respond </li>
+<li> the host reports the order in which the engineers have responded as the order for posting their minutes </li>
+<li> engineers participating in the meeting post their minutes in the given order </li>
+<li> the first engineer posts their name first, then their minutes, then the name of the next engineer (typically the first engineer’s report will be that of the host themselves), 
+<li> everyone else posts their sentences, ending with the name of the next engineer </li>
+<li> the last person ends by indicating that they is finished and that the discussion may begin 
+<li> the host drives the discussion by discussing the points raised in the minutes and anything that comes up during the discussion itself CRITICALLY the engineers 
+should wait for the host to ask them to discuss any given point. There should never be more than one point being discussed simultaneously. 
+Engineers may indicate a need to raise another discussion point by simply posting \_o/ to the channel (raising ones hand).</li></ul>
+
+Keep it short Standups are supposed to be short. Avoid deep and long technical discussions. Instead, decide to discuss them after the standup and quickly agree a time, place and participants.
+
+
+</div>
+
+    </div>
+    
+    
+
+  </body>
+</html>

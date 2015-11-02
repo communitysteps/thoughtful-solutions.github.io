@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    _Header &middot;   Process Manual
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/hyde.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- CSS menu -->
+  <link href="public/menu_source/styles.css" rel="stylesheet" type="text/css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type='text/javascript' src='public/menu_source/menu_jquery.js'></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span>Process Manual</span></a></li>
+               <li><a href='skills.html'><span>Basic Skills</span></a></li>
+               			   <li class='has-sub'><a href='#'><span>The Commandments</span></a>
+                  <ul>
+                     <li><a href='general.html'><span>General</span></a></li>
+                     <li><a href='coding.html'><span>Coding</span></a></li>
+					 <li><a href='testing.html'><span>Testing</span></a></li>
+					 <li><a href='design.html'><span>Design</span></a></li>
+                     <li><a href='estimating.html'><span>Estimating</span></a></li>
+                     <li class='last'><a href='managing.html'><span>Managing</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='questions.html'><span>Stakeholder Questions</span></a></li>
+               <li class='has-sub'><a href='#'><span>Requirement Gathering</span></a>
+                  <ul>
+				  <li><a href='mintro.html'><span>Introduction to Requirement Gathering</span></a></li>
+                     <li><a href='roles.html'><span>Roles</span></a></li>
+                     <li><a href='flow.html'><span>Approximate process flow</span></a></li>
+                     <li><a href='ResourceManager.html'><span>Resource Manager</span></a></li>
+                     <li class='last'><a href='verification.html'><span>Verification Criteria</span></a></li>
+                  </ul>
+               </li>
+               <li><a href='workflow.html'><span>Workflow</span></a></li>
+			   <li><a href='work.html'><span>Work Review</span></a></li>
+               <li class='has-sub'><a href='#'><span>Standing Up</span></a>
+                  <ul>
+                     <li><a href='standup.html'><span>Performing a Standup</span></a></li>
+                                          <li class='last'><a href='example.html'><span>Example</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='pmanagement.html'><span>Project Management</span></a></li>
+			    <li class='has-sub'><a href='#'><span>Techniques</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Cynefin</span></a></li>
+                     <li class='has-sub'><a href='kanban.html'><span>Kanban</span></a>
+                  
+               </li>
+                  </ul>
+               </li>
+			   <li class='has-sub'><a href='#'><span>Examples</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Standard Pig</span></a></li>
+                     <li class='last'><a href='lego.html'><span>The Lego Game</span></a></li>
+                  </ul>
+               </li>
+                           </ul>
+        </div>
+
+       
+    </header>
+
+    <a href="https://github.com/thoughtful-solutions/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="title">Basic Skills</h1>
+  <br />
+  <p>
+Engineers (and perhaps managers too) need a lot of core skills and experience to be effective. The following is a shopping list.<p>
+
+<b>Text editing</b>
+<p><p>
+Everyone should be comfortable using plain text editors of some kind or another.
+    <ul style="list-style-type:disc">
+<li>  edit with vi, vim, emacs, (or at worst nano, gedit, geany or similar) </li>
+<li>  non-trivial document navigation, including jump to specific line, page up, page down, beginning or end of document </li>
+<li> search for complex pattern </li>
+<li> search and replace </li>
+<li> delete n characters </li>
+<li> delete n lines </li>
+<li> cut and paste </li>
+<li> quit without saving </li>
+<li> save to current file or a different one</li></ul>
+
+<b>Operating system on your computer</b>
+ <ul style="list-style-type:disc">
+<li> install your preferred Linux-based distro. If you have no preference, then Fedora or Debian is recommended in order that others in the company can support you. </li>
+<li> understand how a desktop works </li>
+<li> understand how a command line shell works</li></ul>
+
+<b>Linux command-line interface</b>
+ <ul style="list-style-type:disc">
+<li> bash (or some other shell) – pipes – stdin and stdout, and redirecting them </li>
+<li> Use command line utilities, at a minimum (with their common options): man (this should help with all the others), info, /usr/share/doc, cd, pwd, ls, cp, mv, grep, find, sort, uniq, sed, awk </ul>
+
+<b>Regular expressions</b>
+ <ul style="list-style-type:disc">
+<li> understand regexp syntax and be able to decompose/evaluate existing regexps </li>
+<li> create your own regexp, especially for pattern matching </li>
+<li> understand the difference between shell globs and regular expressions</li></ul>
+<b>IRC</b>
+ <ul style="list-style-type:disc">
+<li> be able to install your chosen client </li>
+<li> use it to join the network, and freenode</li>
+<li> join and leave channels </li>
+<li> send channel messages </li>
+<li> send and read private messages </li>
+<li> understand common abbreviations and slang</li></ul>
+
+<b>SSH</b>
+ <ul style="list-style-type:disc">
+<li> understand public/private keys, create your own, understand how/what to copy </li>
+<li> use ssh </li>
+<li> access services (eg access) via ssh (Note: 2048bit or larger RSA keys, or else 384 bit or larger ECDSA keys are the only acceptable options here. DSA keys are not acceptable any longer).</li></ul>
+
+<b>GIT</b>
+ <ul style="list-style-type:disc">
+<li> initialise a new repo </li>
+<li> clone an existing repo </li>
+<li> make changes and commit them with appropriate commenting </li>
+<li> work with local branches - create, checkout, commit, merge, delete etc. </li>
+<li> switch between branches </li>
+<li> work with remotes </li>
+<li> push work from your local branch to a remote branch </li>
+<li> work with remote branches - create, checkout, merge, delete etc. </li>
+<li> work with tags </li>
+<li> cherry-pick </li>
+<li> reset </li>
+<li> rebase </li>
+<li> understand git datastore structure principles</li></ul>
+
+
+</li>
+</div>
+
+    </div>
+    
+    
+
+  </body>
+</html>

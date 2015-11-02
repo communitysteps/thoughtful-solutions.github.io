@@ -1,2 +1,1 @@
-# thoughtful-solutions.github.io
-Process Manual
+# process-manual

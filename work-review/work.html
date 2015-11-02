@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    _Header &middot;   Process Manual
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/hyde.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- CSS menu -->
+  <link href="public/menu_source/styles.css" rel="stylesheet" type="text/css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type='text/javascript' src='public/menu_source/menu_jquery.js'></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span>Process Manual</span></a></li>
+               <li><a href='skills.html'><span>Basic Skills</span></a></li>
+               			   <li class='has-sub'><a href='#'><span>The Commandments</span></a>
+                  <ul>
+                     <li><a href='general.html'><span>General</span></a></li>
+                     <li><a href='coding.html'><span>Coding</span></a></li>
+					 <li><a href='testing.html'><span>Testing</span></a></li>
+					 <li><a href='design.html'><span>Design</span></a></li>
+                     <li><a href='estimating.html'><span>Estimating</span></a></li>
+                     <li class='last'><a href='managing.html'><span>Managing</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='questions.html'><span>Stakeholder Questions</span></a></li>
+               <li class='has-sub'><a href='#'><span>Requirement Gathering</span></a>
+                  <ul>
+				  <li><a href='mintro.html'><span>Introduction to Requirement Gathering</span></a></li>
+                     <li><a href='roles.html'><span>Roles</span></a></li>
+                     <li><a href='flow.html'><span>Approximate process flow</span></a></li>
+                     <li><a href='ResourceManager.html'><span>Resource Manager</span></a></li>
+                     <li class='last'><a href='verification.html'><span>Verification Criteria</span></a></li>
+                  </ul>
+               </li>
+               <li><a href='workflow.html'><span>Workflow</span></a></li>
+			   <li><a href='work.html'><span>Work Review</span></a></li>
+               <li class='has-sub'><a href='#'><span>Standing Up</span></a>
+                  <ul>
+                     <li><a href='standup.html'><span>Performing a Standup</span></a></li>
+                                          <li class='last'><a href='example.html'><span>Example</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='pmanagement.html'><span>Project Management</span></a></li>
+			    <li class='has-sub'><a href='#'><span>Techniques</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Cynefin</span></a></li>
+                     <li class='has-sub'><a href='kanban.html'><span>Kanban</span></a>
+                  </li>
+                  </ul>
+               </li>
+			   <li class='has-sub'><a href='#'><span>Examples</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Standard Pig</span></a></li>
+                     <li class='last'><a href='lego.html'><span>The Lego Game</span></a></li>
+                  </ul>
+               </li>
+                           </ul>
+        </div>
+
+       
+    </header>
+
+    <a href="https://github.com/thoughtful-solutions/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="title">Work Review</h1>
+  <br />
+  
+
+
+
+Work review (particularly code review) should always happen on completion of a kanban card (or feature) that produced any reviewable content. Every component in a project should have at least 2 engineers assigned to review that module. Patches are always sent to the project mailing list, unless there is a need to have a reviewspecific mailing list. The aim should always be that reviews should happen within a day of the patch being sent to the mailing list. Note that review is not just for code (although it is primarily for code, and the majority of this chapter is directly related to reviewing for code in particular) and it also applies to documentation and indeed architecture. FIXME: The Kanban flow integration is very new, being used by Baserock to some extent, but needs review by Paul, Rob Taylor, Lars etc. The flow is as follows: <p>
+<ol type="1">1. The patch should be squashed into a set of sensible orthogonal patches on a feature branch like /. This may be 1 or more. Orthogonal in this case means that no two patches should touch the same area of the code. </li>
+   <ul style="list-style-type:disc"> <li> Update the commit message to explain your reasoning for the changes (e.g. if you had to try a few different things before your final version, note that in the commit) </li>
+   <li> Your aim when tidying your patchset for review should be: – it should be to make it easy to review the changes. This can, for example, affect ordering of patches in a series. – when you git blame in the future to find out why a line is the way it is, you should be able to understand why from the commit message </li>
+   <li> Patches should be rebased to be on top of master (or the relevant working branch) </li>
+   <li> the branch with the patchset should be pushed to the server </LI></UL>
+2. Send this patchset to the mailing list with a suitable covering latter, referencing the kanban card. The cover letter must contain 
+   <ul style="list-style-type:disc"> <li> The repository the branch is hosted at. </li>
+   <li> The name of the branch the work was done in </li>
+   <li> The sha1 sum of the head of the branch. This should be a commit, don’t tag feature branches.</li>
+   <li> The kanban card number, if applicable </li>
+   <li> The branch that the patch is to land on (if not the master for the project) </li></ul>
+  
+  To use git send-email send your patches through the SMTP server, edit ∼/.gitconfig to specify your account settings:</li></ul> <p>
+<p>
+<b>[sendemail] smtpencryption = tls smtpserver = mail.mailserver.co.uk smtpuser = yourldapusername smtpserverport = 587</b><p>
+
+ Prerequisites for Ubuntu/Mint:<p>
+
+<b>sudo apt-get install git-email libauthen-sasl-perl sudo -H cpan Net::SMTP::SSL </b><p><p>
+Once your commits are ready to be sent to the mailing list, run the following commands:<p><p>
+
+<b>git format-patch --cover-letter -M origin/master -o outgoing/ edit outgoing/0000-* git send-email outgoing/* </b><p>
+
+<ol type="1"> <li> Move your Kanban card to the review lane, add ‘Author: Your name’ to the results field and deassign the card. </li>
+<li> The reviewer who picks up your card assigns it to themselves (but leaves the card in the review lane) and then will do the review. This should likely happen by replying inline to the mails and commenting. The reviewer should delete sections that are ok (and note this) and only reply to the sections that need comment. This is simply standard email etiquette. </li>
+<li> When the reviewer is finished, they should submit their verdict to both the mailing list (as a response to the patch series root email) and record it on the Kanban card, removing themselves from the assignee list. Then, depending on the project policy, either the patch is refused, approved, or needs further review. In the last case, the card is left for another reviewer to pick up, the other two cases are detailed below. </li>
+<li> If any changes need to be made, the reviewer will reassign the card to the original worker and put the card back to backlog. The author should then pick the card up, put it in doing, make the changes, update the patchset and push –force the patch branch. Repeat from step 3), adding ‘V2’, ‘V3’, etc as appropriate </li>
+</ol>
+<b>SIMPLE, CLEAN, CLEAR REVIEW COMMENTARY</b><p><p>
+
+If approved, merge your feature branch to master (or the relevant working branch), then delete your feature branch, and move the relevant kanban kard from Review to Done. It is essential that when the card is in the Done lane, the assignees are the authors of the work and not the reviewers. This can be done by the reviewer or the original author, depending on the policy of the project in question
+<ol type="1"> <li> When merging a feature branch, use
+
+<b>git merge --no-ff --no-commit</b> Then take the time to review the merge, and check 
+that any test suites you have still run successfully, then finish off with a simple git commit 
+<li><p> You can delete a branch on the server by:
+
+<b>git push --delete <remote name> <branch name></b></li>
+<p><p></ol>
+Simple, clean, clear review commentary When you are reviewing anything, but particularly code, you should attempt to ensure that your commentary is clear, that your review is clean (does not inadvertently quote unneccessary content) and that you make it easy for the author to take your comments on board and work with you to improve the patches. There is a very simple way to finish a review. The system proposed involves responding to patch series with an overall +1, -1 type value.
+<ul style="list-style-type:disc"><p><li> +1 means “I think you should merge”  </li>
+<li> -1 means “I veto this being merged”</li>
+<li>+0 means “I have no reason to object to a merge but am not comfortable saying you should merge” </li>
+<li> -0" means “I have reason to not want to allow the merge, but am not comfortable vetoing the merge entirely”.</li></ul> Some projects may require a +1 from one architect and at least one other engineer, others may be satisfied with a single +1 from any engineer, others may be satisfied with no -1 after a period of time. The policy will vary from project to project and there is no correct answer. Also, some projects may have engineers who are not comfortable with the four simple values above. Any value is acceptable (for example +0.25 for someone who is just starting out on a project to indicate a +1 but without confidence) and projects will find their way as time passes.
+<p><p>
+Things to consider when reviewing code (or other things) While the following is not exhaustive, this is a list of useful things to consider when performing a review. This is code-focussed but a lot of it applies to documentation or architecture review as well.</li>
+<ul style="list-style-type:disc"> <li>Is the cover letter clear and understood? – Does it make sense – Does it need to happen – Is all the required data present. </li>
+<li> Does the changed code pass tests? – Particularly on the reviewer’s system – If appropriate, on multiple architectures – If available for the project, evidence of passing CI would be good – Always test the result of merging, not the thing you are reviewing – Does it break any forward-building constraints on the project. For example, Baserock version X must be buildable with version X-1 </li>
+<li> Are the patches logically separated (did the author perform step 1 of the process above well). * Review the change for clarity </li>
+<li> Review the change for correctness </li>
+<li> Non-code needs to be reviewed just as much as code does </li>
+<li> Is there a better way of implementing the change? </li>
+<li> Are the tests good – are there enough and are they the right ones. – Give special attention to test code. Test suite failures can be either code errors or test suite errors. Test code MUST be clean, clear, simple, obviously correct. </li>
+<li> Are the commit messages good. The commit messages form the primary part of tracing how/why change was written. If they’re poor it makes tracing through history that much harder. </li>
+<li> Ensure documentation and implementation agree. It’s worth noting that documentation includes the project’s Requirement Gathering. </li>
+<li> Do the patches introduce or enhance a smell? A smell is a hard-to-define “issue” with a codebase or document. Something which while it’s not necessarily obviously wrong, somehow doesn’t sit right with you. For example while a document might not be bad, it might have a bad smell in that the formalism doesn’t seem to be consistent, or perhaps the voice it is written in abruptly shifts causing confusion.</li>
+</ul>
+
+<b>WHO AND WHEN</b><p><p>
+
+Everyone on a project can be involved in reviewing work. However typically a given component will have preferred reviewers. When a project is small, or tightly coupled then every engineer may be able to review any given piece of work. No engineer, no matter how new to a project, should consider themselves unable to review work. Engineers new to a project may not be comfortable giving a +1 but that does not prevent them from performing a review – they may learn something new. <p><p>
+
+Reviewing work does not have to happen at fixed times, however experience shows us that engineers prefer to do work rather than review someone else’s work. As such it can benefit a project to have fixed points at which engineers’ priorities shift from generating work to reviewing work. For example, it might be considered suitable to review work directly after a standup, or perhaps directly after lunch. Both are points in the day when the engineer is already context-switching and as such there is little to no cost to switch into review mode rather than engineering mode.
+
+
+</li>
+</div>
+
+    </div>
+    
+    
+
+  </body>
+</html>

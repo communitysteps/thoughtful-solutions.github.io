@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    _Header &middot;   Process Manual
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/hyde.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- CSS menu -->
+  <link href="public/menu_source/styles.css" rel="stylesheet" type="text/css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type='text/javascript' src='public/menu_source/menu_jquery.js'></script>
+  
+</head>
+
+
+  <body>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span>Process Manual</span></a></li>
+               <li><a href='skills.html'><span>Basic Skills</span></a></li>
+               			   <li class='has-sub'><a href='#'><span>The Commandments</span></a>
+                  <ul>
+                     <li><a href='general.html'><span>General</span></a></li>
+                     <li><a href='coding.html'><span>Coding</span></a></li>
+					 <li><a href='testing.html'><span>Testing</span></a></li>
+					 <li><a href='design.html'><span>Design</span></a></li>
+                     <li><a href='estimating.html'><span>Estimating</span></a></li>
+                     <li class='last'><a href='managing.html'><span>Managing</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='questions.html'><span>Stakeholder Questions</span></a></li>
+               <li class='has-sub'><a href='#'><span>Requirement Gathering</span></a>
+                  <ul>
+				  <li><a href='mintro.html'><span>Introduction to Requirement Gathering</span></a></li>
+                     <li><a href='roles.html'><span>Roles</span></a></li>
+                     <li><a href='flow.html'><span>Approximate process flow</span></a></li>
+                     <li><a href='ResourceManager.html'><span>Resource Manager</span></a></li>
+                     <li class='last'><a href='verification.html'><span>Verification Criteria</span></a></li>
+                  </ul>
+               </li>
+               <li><a href='workflow.html'><span>Workflow</span></a></li>
+			   <li><a href='work.html'><span>Work Review</span></a></li>
+               <li class='has-sub'><a href='#'><span>Standing Up</span></a>
+                  <ul>
+                     <li><a href='standup.html'><span>Performing a Standup</span></a></li>
+                                          <li class='last'><a href='example.html'><span>Example</span></a></li>
+                  </ul>
+               </li>
+			   <li><a href='pmanagement.html'><span>Project Management</span></a></li>
+			    <li class='has-sub'><a href='#'><span>Techniques</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Cynefin</span></a></li>
+                     <li class='has-sub'><a href='kanban.html'><span>Kanban</span></a>
+                  </li>
+                  </ul>
+               </li>
+			   <li class='has-sub'><a href='#'><span>Examples</span></a>
+                  <ul>
+                     <li><a href='pig.html'><span>Standard Pig</span></a></li>
+                     <li class='last'><a href='lego.html'><span>The Lego Game</span></a></li>
+                  </ul>
+               </li>
+                           </ul>
+        </div>
+
+       
+    </header>
+
+    <a href="https://github.com/thoughtful-solutions/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="title">Requirement Gathering</h1>
+  <br />
+  <p><b>Approximate process flow</b><p>
+<ol type="1">
+
+<li> Customer wants a system to be developed. </li><p>
+<li> Architect gathers requirements by interviewing customer. </li>
+    <ul style="list-style-type:disc">
+   <li> architect writes up requirements in Requirement Gathering, and documents the verification criteria for each requirement </li>
+   <li> architect reviews the requirements with the customer</li>
+   <li> architect plans an architecture to fulfil known requirements, also in Requirement Gathering, refining it in as much detail as necessary to know whether everything is clear, will work, and is implementable; this includes components, interfaces, verification criteria, and anything else necessary </li>
+   <li> this usually leads to additional questions, leading to new requirements or changes to existing ones </li></ul></ol>
+<ol start="3"> 
+<li> Customer signs off on the requirements as being correct and complete. </li>
+   <ul style="list-style-type:disc"><li> this is tagged in the git repository</ul></ol>
+<ol start="4">  
+   <li> Architect refines the architecture, if needed, to produce a work plan.</li></ol></ul><p>
+<ol start="5">    
+   <li> Architect produces the work items needed to implement the architecture. </li><p>
+<li> Architect, project manager, and developers estimate work to be done, by breaking work items into smaller parts, when needed, etc. </li><p>
+<li> If necessary, project manager and sales negotiate with customer to agree on the price, scope, and timeline for the project. </li><p>
+<li> Developers do the work. </li>
+  <ul style="list-style-type:disc"> <li> To facilitate this, developers break down the work items into ‘doable’ cards in the Kanban. The architect may need to help here. </li></ul></ol>
+<ol start="9"> <li>When (not if) there is a need to change requirements or architecture, the architect discusses the changes with the customer or developers, and prepares a change in Requirement Gathering in a new branch. 
+   <ul style="list-style-type:disc"><li> the architect updates the requirements, architecture, components, interfaces, and work items as necessary </li></ul></ol><p>
+   
+<ol start="10"><li> The architect and project manager discuss the proposed branch, making estimates (perhaps with the developers) on the impact on the amount of work to be done, and the project manager prepares the corresponding changes to work schedule and project cost.  </li>
+<li> Project manager discusses the changes with the customer, who either accepts or rejects them, or wants to have the plan for the changes amended.  </li>
+<li> Once the customer accepts the changes, the architect merges the new branch to master, and creates a tag for the new state of the agreement with the customer.  </li>
+<li> Repeat until done.</ol>
+
+In rough graphical form:
+
+
+
+
+
+
+
+
+The above graph is not authoritative.
+
+<p><p>Data model A project is represented in Requirement Gathering as a set of nodes, which are linked to each other in various ways. Each node has a kind: 
+<ul style="list-style-type:disc"><li>project: Core information about the project as a whole. </li>
+<li> requirement: Customer requirement on project. </li>
+<li> component: A part of the system. </li>
+<li> interface: An interface of a component.</li> 
+<li> integration-strategy: A way to describe how to combine sub-components into a coherent supercomponent. </li>
+<li> verification-criterion: How do we know a requirement is met, or a component works? </li>
+<li> work-item: Lumps of work needed to implement the project.</li>
+<li> tag: Arbitrary tags on other nodes. The following UML diagram shows the relationship between different kinds of nodes.</li></ul><p>
+<p>
+The data is expressed using YAML. Each node is an “object” consisting of some key/value pairs. Some constraints: 
+<ul style="list-style-type:disc"><li> Every project SHOULD have a “project” node. </li>
+<li> Every requirement SHOULD be verifiable, and must have one or more verification criteria to express how that happens. Verification criteria SHOULD be designed so that verification can be made automatic with sufficient effort. </li>
+<li> By the time the architecture is finished, every requirement MUST be fully mapped. </li>
+<li> Every project SHOULD have exactly one top-level component.</li>
+<li> Every component with sub-components SHOULD have an integration strategy. </li>
+<li> Every integration strategy SHOULD have exactly one architecture parent. </li>
+<li> Every large component SHOULD have one or more components that implement it. </li>
+<li> Every component SHOULD have exactly one component parent. (excluding the top level component) </li>
+<li> Every component SHOULD have either more components, or else a work item as a child. </li>
+<li> Every component SHOULD have one or more verification criteria.</li></ul>
+
+License management in projects Every project must manage the licenses in the components it includes to achieve several goals: 
+<ul style="list-style-type:disc"><li> Follow licenses of all components. </li>
+<li> Avoid including code under unwanted licenses in the end result. For more information, see the wiki. The list of licenses for each component, or each file in each component, known as the “bill of materials”, is stored with project documentation in a manner suitable for the project. Capturing the choice of licenses is done in the Requirement Gathering document using tags.</li></ul>
+
+The aspects of good requirements Requirements are very hard to write well. Customers frequently get them very very wrong. It is the role of the architect (and project manager to some extent) to analyse the requirements captured from the customer and encode them in a way which makes them ‘good’. Good requirements have a few simple characteristics: </li>
+
+<ol type="1"> <li> Unitary (Cohesive): The requirement address one and only one thing.</li>
+<li> Complete: The requirement is fully stated in one place with no missing information. </li>
+<li> Consistent: The requirement does not contradict any other requirement and is fully consistent with all authoritative external documentation</li></ol>
+  
+
+</li>
+</div>
+
+    </div>
+    
+    
+
+  </body>
+</html>

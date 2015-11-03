@@ -7,7 +7,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
   <title>
-    Introduction
+    Naming
   </title>
 
   <!-- CSS -->
@@ -81,12 +81,6 @@
                   </li>
                   </ul>
                </li>
-			   <ul>
-				  <li><a href='/taxonomy/'><span>Introduction to Requirement Gathering</span></a></li>
-                     <li><a href='/taxonomy/naming.html'><span>Naming</span></a></li>
-                     <li><a href='/taxonomy/projects.html'><span>Projects</span></a></li>
-                     <li class='last'><a href='/requirement-gathering/ResourceManager.html'><span>Resource Manager</span></a></li>
-                   </ul>
 			   <li class='has-sub'><a href='#'><span>Examples</span></a>
                   <ul>
                      <li><a href='examples/pig.html'><span>Standard Pig</span></a></li>
@@ -116,23 +110,24 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="title">Introduction</h1>
+  <h1 class="title">Naming</h1>
   <br />
-  <p>This website aims to standardise the way we do things. Some of our approach is derived from Open Source best practices, some from manufacturing and some from our own experience. The aim is that processes should make life easier, by reducing uncertainty. We want our processes to be lightweight and applicable either iteratively or linearly. Criticism and questions are encouraged, once you’ve taken the time to understand the reasoning for the current processes. We are aiming to establish the same default processes, rules and tools on all projects. This extends to standardising our approach for custom tools with Python + YAML + Markdown + Git. This set of documents specifies those defaults. Doing something else is only ok if the project/situation explicitly justifies a variation. Any variation needs to be documented in the location provided for in the project management template. Everyone is expected to know and understand what is in these process documents, to follow them where appropriate, and to help improve them. 
-<li> Apply The Software Commandments
-<li> FIXME: Sales handover process 
-<li> Identify risks on new projects using the Risk Management Checklist 
-<li> FIXME: Naming Standards 
-<li>  At project start, use the Project Startup Checklist 
-<li>  Capture requirements using Requirement Gathering 
-<li> This applies even if there’s no architecture to do, and even if requirements documentation is provided by the customer. 
-<li> Refer to the Requirements Capture Checklist. 
-<li>  Describe architecture and design in Requirement Gathering. 
-<li>  Follow the Kanban guidelines and use Kanban for day-to-day task allocation, short term milestone planning and deliveries. 
-<li>  Write all documentation in markdown format, and keep it in Git along with source. 
-<li> Use Baserock wherever possible 
-<li> FIXME: Issue Tracking 
-<li>  Code Review</p>
+  <p> 
+     'element' DNS A recording relationship with device
+      'device' DNS A recording relationship to physical resources
+        'host' DNS A recording relationship to OS 'project'
+     'cluster' DNS A recording relationship to OS 'project' and a group of 'hosts'
+   'end-point' DNS CNAME recording relationship between 'cluster' and 'package'
+     'package' OS username recording instance of 'application'
+ 'application' OS groupname recording relationship to 'project'
+ 'environment' DNS sub domain
+    'location' DNS sub domain recording physical locations of 'devices'
+
+Naming is...    Human recognisable,
+                machine parsable embedding semantic versioning,
+                reflecting the relationship between described in the taxonomy.
+
+Why ? it makes measurement and diagnostics dramatically easier if we can quickly relate and locate components of capabilities.
 </li>
 </div>
 

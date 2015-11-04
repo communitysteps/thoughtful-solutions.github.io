@@ -109,38 +109,38 @@
       <div class="post">
   <h1 class="title">Taxonomy</h1>
   <br />
-  <p> A 'capability'   provides recognisable of business value consumed via
-     'end-point'     provides a network end point which is associated with a
-      'cluster'      providing availability, which interacts with
-      'package'      instances constructioned from
-      'application'  binaries, executing on a
-      'host'         which consumes resources from a
-      'device'       which are provides resources using
-      'element'      within.
+  <p>A <ul><li>'capability'   provides recognisable of business value consumed via</li>
+     <li> 'end-point'     provides a network end point which is associated with a</li>
+     <li> 'cluster'      providing availability, which interacts with</li>
+     <li> 'package'      instances constructioned from</li>
+    <li>  'application'  binaries, executing on a</li>
+     <li> 'host'         which consumes resources from a</li>
+     <li> 'device'       which are provides resources using</li>
+      <li>'element'      within.</p></li></ul>
 
 We can of course invert the Taxonomy and show what is going on
 
-      'element'     are agregated into a 'device' which controls the elements.
-      'device'      provide CPU cycles, memory and IO while consuming power.
-      'host'        consumes the CPU/IO/memory and provides resource seperation
+     <li> 'element'     are agregated into a 'device' which controls the elements.</li>
+    <li>  'device'      provide CPU cycles, memory and IO while consuming power.</li>
+    <li>  'host'        consumes the CPU/IO/memory and provides resource seperation
                     and abstraction providing timeslices for the instantiation
-                    of packages.
+                    of packages.</li>
 
-      'package'     is the specialised instantiation of the class of an application
+   <li>   'package'     is the specialised instantiation of the class of an application</li>
                     tasked with performing behaviours of value to the business.
-      'application' is the repository of testable behaviours which have value to
+     <li> 'application' is the repository of testable behaviours which have value to</li>
                     the business.
-      'cluster'     is the provider of availability for packages.
-      'end-point'   provides a network visible connection to an associated
-                    cluster or package
+    <li>  'cluster'     is the provider of availability for packages.</li>
+  <li>    'end-point'   provides a network visible connection to an associated
+                    cluster or package</li></ul></p>
 
 
-    A 'file system'  provides a repository for artefaces used in a capabilty
-      'project'      is repository of information about the construction of
-                     the artefacts which provide a 'capability'
-   An 'environment'  is the repository of information about the orchestration
-                     and reporting for the instantiation of 'capability(s)'
-    A 'location'     where a physical resouce is found
+  <p>  A<ul> <li> 'file system'  provides a repository for artefaces used in a capabilty</li>
+     <li>  'project'      is repository of information about the construction of
+                     the artefacts which provide a 'capability'</li>
+ <li>   An 'environment'  is the repository of information about the orchestration
+                     and reporting for the instantiation of 'capability(s)'</li>
+  <li>   A 'location'     where a physical resouce is found</li></ul>
 
    The 'intent' of those commissioning a 'capability' is delivered via a series of 'tasks' which in turn generate 'change sets' which implement 'behaviour' as understood by the 'developer'
 

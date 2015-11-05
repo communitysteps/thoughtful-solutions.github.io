@@ -93,7 +93,7 @@
 }
 /* Sub menu */
 #cssmenu ul ul {
-  display: always;
+  display: none;
   background: #fff;
   border-right: 0px solid #a2a194;
   border-left: 0px solid #a2a194;

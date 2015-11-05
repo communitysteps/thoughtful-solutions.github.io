@@ -16,5 +16,6 @@ $('#cssmenu > ul > li > a').click(function() {
   } else {
     return false;	
   }		
+  ('li.active>a').trigger('click');
 });
 });

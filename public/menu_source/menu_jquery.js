@@ -7,10 +7,7 @@ $('#cssmenu > ul > li > a').click(function() {
     $(this).closest('li').removeClass('active');
     checkElement.slideUp('normal');
   }
-  if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-    $('#cssmenu ul ul:visible').slideUp('normal');
-    checkElement.slideDown('normal');
-  }
+  
 	('#cssmenu li').on('click', function(e){
 		var $target = $(e.target),
         $currentElement = $(this);

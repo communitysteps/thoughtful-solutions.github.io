@@ -73,7 +73,7 @@
   text-shadow: 0 -1px 1px #751d0c;
 }
 #cssmenu > ul > li > a > span {
-  display: active;
+  display: none;
   padding: 12px 10px;
   -webkit-border-radius: 04px;
   -moz-border-radius: 0px;

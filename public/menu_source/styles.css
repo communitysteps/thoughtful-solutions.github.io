@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  list-style: active;
+  list-style: none;
   font-weight: bold;
   text-decoration: none;
   line-height: 1;
@@ -57,11 +57,11 @@
   background: linear-gradient(#60CA95 0%, #60CA95 100%);
 }
 #cssmenu > ul > li:hover {
-  background: #80CCFF;
-  background: -moz-linear-gradient(#80CCFF 0%, #80CCFF 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #80CCFF), color-stop(100%, #80CCFF));
-  background: -webkit-linear-gradient(#80CCFF 0%, #80CCFF 100%);
-  background: linear-gradient(#80CCFF 0%, #80CCFF 100%);
+  background: #45463d;
+  background: -moz-linear-gradient(#45463d 0%, #45463d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45463d), color-stop(100%, #45463d));
+  background: -webkit-linear-gradient(#45463d 0%, #45463d 100%);
+  background: linear-gradient(#45463d 0%, #45463d 100%);
 }
 #cssmenu > ul > li > a {
   font-size: 14px;
@@ -83,7 +83,7 @@
   text-decoration: none;
 }
 #cssmenu > ul > li.active {
-  border-bottom: none;
+  border-bottom: active;
 }
 #cssmenu > ul > li.has-sub > a span {
   background: url(images/icon_plus.png) 96% center no-repeat;

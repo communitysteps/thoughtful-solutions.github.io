@@ -57,18 +57,18 @@
   background: linear-gradient(#60CA95 0%, #60CA95 100%);
 }
 #cssmenu > ul > li:hover {
-  background: #b1b7b8;
-  background: -moz-linear-gradient(#b1b7b8 0%, #b1b7b8 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b1b7b8), color-stop(100%, #b1b7b8));
-  background: -webkit-linear-gradient(#b1b7b8 0%, #b1b7b8 100%);
-  background: linear-gradient(#b1b7b8 0%, #b1b7b8 100%);
+  background: #80CCFF;
+  background: -moz-linear-gradient(#80CCFF 0%, #80CCFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #80CCFF), color-stop(100%, #80CCFF));
+  background: -webkit-linear-gradient(#80CCFF 0%, #80CCFF 100%);
+  background: linear-gradient(#80CCFF 0%, #80CCFF 100%);
 }
 #cssmenu > ul > li > a {
   font-size: 14px;
   display: block;
   background: url(images/pattern.png) top left repeat;
-  color: #45463d;
-  border: 0px solid #45463d;
+  color: #ffffff;
+  border: 0px solid #ba2f14;
   border-top: none;
   text-shadow: 0 -1px 1px #751d0c;
 }

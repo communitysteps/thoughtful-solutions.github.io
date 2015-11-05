@@ -65,7 +65,7 @@
 }
 #cssmenu > ul > li > a {
   font-size: 14px;
-  display: block;
+  display: active;
   background: url(images/pattern.png) top left repeat;
   color: #ffffff;
   border: 0px solid #ba2f14;
@@ -73,7 +73,7 @@
   text-shadow: 0 -1px 1px #751d0c;
 }
 #cssmenu > ul > li > a > span {
-  display: always;
+  display: active;
   padding: 12px 10px;
   -webkit-border-radius: 04px;
   -moz-border-radius: 0px;

@@ -127,9 +127,3 @@
 #cssmenu ul ul a:hover {
   color: #60CA95;
 }
-.menu-shown-on-load {
-    background-color: #ff0;
-}
-.menu-shown-on-load .menu-item {
-    background-color: #ff0;
-}

@@ -64,11 +64,11 @@
   background: linear-gradient(#66665e 0%, #45463d 100%);
 }
 #cssmenu > ul > li {
-  background: #e84323;
-  background: -moz-linear-gradient(#e84323 0%, #d13516 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e84323), color-stop(100%, #d13516));
-  background: -webkit-linear-gradient(#e84323 0%, #d13516 100%);
-  background: linear-gradient(#e84323 0%, #d13516 100%);
+  background: #e94f31;
+  background: -moz-linear-gradient(#e94f31 0%, #d13516 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e94f31), color-stop(100%, #d13516));
+  background: -webkit-linear-gradient(#e94f31 0%, #d13516 100%);
+  background: linear-gradient(#e94f31 0%, #d13516 100%);
 }
 #cssmenu > ul > li:hover {
   background: #e84323;
@@ -136,8 +136,8 @@
   content: '»';
   position: absolute;
   left: 10px;
-  color: #e84323;
+  color: #e94f31;
 }
 #cssmenu ul ul a:hover {
-  color: #e84323;
+  color: #e94f31;
 }

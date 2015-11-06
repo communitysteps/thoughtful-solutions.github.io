@@ -44,9 +44,9 @@
   background: url(images/pattern.png) top left repeat;
   border: none;
   border-top: 0px solid #818176;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0x 0px 0 0;
+  border-radius: 0px 0px 0 0;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 18px;

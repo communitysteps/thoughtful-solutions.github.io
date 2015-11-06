@@ -114,7 +114,7 @@
 }
 #cssmenu ul ul li {
   padding: 0;
-  border-bottom: 0px solid #d4d4d4;
+  border-bottom: 5px solid #d4d4d4;
   border-top: none;
   background: #f7f7f7;
   background: -moz-linear-gradient(#f7f7f7 0%, #ececec 100%);

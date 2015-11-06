@@ -107,7 +107,7 @@
 }
 /* Sub menu */
 #cssmenu ul ul {
-  display: active;
+  display: none;
   background: #fff;
   border-right: 1px solid #a2a194;
   border-left: 1px solid #a2a194;
@@ -127,7 +127,7 @@
 }
 #cssmenu ul ul a {
   padding: 10px 10px 10px 25px;
-  display: block;
+  display: active;
   color: #676767;
   font-size: 12px;
   font-weight: bold;

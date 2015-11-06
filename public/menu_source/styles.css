@@ -20,10 +20,10 @@
 }
 #cssmenu {
   width: 100%;
-  border-bottom: 4px solid #656659;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-bottom: 0px solid #656659;
+  -webkit-border-radius: 0x;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 #cssmenu a {
   line-height: 1.3;

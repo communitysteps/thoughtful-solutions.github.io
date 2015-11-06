@@ -90,8 +90,8 @@
   display: block;
   padding: 12px 10px;
   -webkit-border-radius: 0px;
-  -moz-border-radius: 0%px;
-  border-radius: 4px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 #cssmenu > ul > li > a:hover {
   text-decoration: none;
@@ -121,12 +121,10 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #751d0c), color-stop(100%, #751d0c));
   background: -webkit-linear-gradient(#751d0c 0%, #751d0c 100%);
   background: linear-gradient(#751d0c 0%, #751d0c 100%);
-  display: block
-  }
+    }
 #cssmenu ul ul li:last-child {
   border-bottom: none;
-  display: block
-}
+  }
 #cssmenu ul ul a {
   padding: 10px 10px 10px 25px;
   display: active;
@@ -142,5 +140,4 @@
 }
 #cssmenu ul ul a:hover {
   color: #60CA95;
-  display: active
-}
+  }

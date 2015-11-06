@@ -121,6 +121,7 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #751d0c), color-stop(100%, #751d0c));
   background: -webkit-linear-gradient(#751d0c 0%, #751d0c 100%);
   background: linear-gradient(#751d0c 0%, #751d0c 100%);
+  display: block
   }
 #cssmenu ul ul li:last-child {
   border-bottom: none;

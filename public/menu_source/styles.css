@@ -71,11 +71,11 @@
   background: linear-gradient(#60CA95 0%, #60CA95 100%);
 }
 #cssmenu > ul > li:hover {
-  background: #e3dac9;
-  background: -moz-linear-gradient(#e3dac9 0%, #c33115 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3dac9), color-stop(100%, #c33115));
-  background: -webkit-linear-gradient(#e3dac9 0%, #c33115 100%);
-  background: linear-gradient(#e3dac9 0%, #c33115 100%);
+  background: #60CA95;
+  background: -moz-linear-gradient(#60CA95 0%, #60CA95 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #60CA95), color-stop(100%, #60CA95));
+  background: -webkit-linear-gradient(#e3dac9 0%, #60CA95 100%);
+  background: linear-gradient(#e3dac9 0%, #60CA95 100%);
 }
 #cssmenu > ul > li > a {
   font-size: 14px;

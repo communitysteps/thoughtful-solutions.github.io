@@ -19,7 +19,7 @@
   position: relative;
 }
 #cssmenu {
-  width: 250px;
+  width: 100%;
   border-bottom: 4px solid #656659;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -40,10 +40,10 @@
   border-radius: 3px 3px 0 0;
 }
 #cssmenu > ul > li:first-child > a {
-  padding: 15px 10px;
+  padding: 0px 0px;
   background: url(images/pattern.png) top left repeat;
   border: none;
-  border-top: 1px solid #818176;
+  border-top: 0px solid #818176;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;

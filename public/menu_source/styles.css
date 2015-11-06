@@ -71,18 +71,18 @@
   background: linear-gradient(#60CA95 0%, #d13516 100%);
 }
 #cssmenu > ul > li:hover {
-  background: #60CA95;
-  background: -moz-linear-gradient(#60CA95 0%, #c33115 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #60CA95), color-stop(100%, #c33115));
-  background: -webkit-linear-gradient(#60CA95 0%, #c33115 100%);
-  background: linear-gradient(#60CA95 0%, #c33115 100%);
+  background: #e3dac9;
+  background: -moz-linear-gradient(#e3dac9 0%, #c33115 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3dac9), color-stop(100%, #c33115));
+  background: -webkit-linear-gradient(#e3dac9 0%, #c33115 100%);
+  background: linear-gradient(#e3dac9 0%, #c33115 100%);
 }
 #cssmenu > ul > li > a {
   font-size: 14px;
   display: block;
   background: url(images/pattern.png) top left repeat;
-  color: #ffffff;
-  border: 1px solid #ba2f14;
+  color: #e3dac9;
+  border: 1px solid #e3dac9;
   border-top: none;
   text-shadow: 0 -1px 1px #751d0c;
 }

@@ -104,6 +104,7 @@
 }
 #cssmenu > ul > li.has-sub.active > a span {
   background: url(images/icon_minus.png) 96% center no-repeat;
+  display: active
 }
 /* Sub menu */
 #cssmenu ul ul {

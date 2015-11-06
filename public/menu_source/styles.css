@@ -82,7 +82,7 @@
   display: block;
   background: url(images/pattern.png) top left repeat;
   color: #e3dac9;
-  border: 1px solid #e3dac9;
+  border: 0px solid #e3dac9;
   border-top: none;
   text-shadow: 0 -1px 1px #751d0c;
 }

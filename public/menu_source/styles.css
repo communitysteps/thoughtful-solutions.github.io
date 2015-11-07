@@ -136,7 +136,7 @@
 #cssmenu ul ul a:before {
   content: '»';
   position: absolute;
-  left: 10px;
+  left: 12px;
   color: #60CA95;
 }
 #cssmenu ul ul a:hover {

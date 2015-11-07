@@ -109,8 +109,8 @@
 #cssmenu ul ul {
   display: none;
   background: #fff;
-  border-right: 1px solid #a2a194;
-  border-left: 1px solid #a2a194;
+  border-right: px solid #a2a194;
+  border-left: px solid #a2a194;
 }
 #cssmenu ul ul li {
   padding: 0;

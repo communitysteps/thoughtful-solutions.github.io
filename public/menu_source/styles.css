@@ -20,7 +20,7 @@
 }
 #cssmenu {
   width: 100%;
-  border-bottom: 0px solid #656659;
+  border-bottom: 0px solid #efefef;
   -webkit-border-radius: 0x;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -81,7 +81,7 @@
   font-size: 14px;
   display: block;
   background: url(images/pattern.png) top left repeat;
-  color: #676767;
+  color: #efefef;
   border: none;
   border-top: none;
   text-shadow: none;

@@ -115,100 +115,108 @@
   <h1 class="title">The Definition of Done</h1><p></p>
   
 An Agile project has ceremonies (sprint planning, release planning, sprint retrospective, etc.) and metrics (sprint & release burndown charts) designed to ensure that the project is in a healthy state. Unfortunately, many Agile projects fail even after following all the ceremonies religiously. Why? One of the primary reasons is that they are not able to deliver value to the customer at the end of each sprint. They deliver a product at the end of each sprint, but not a product that is potentially shippable. Here lies the root cause of failure. The software these projects deliver at the end of each sprint is half tested, half documented, half refactored and only half ready for release.
-
+<p>
 An explicit and concrete definition of done may seem small but it can be the most critical checkpoint of an agile project. Without a consistent meaning of done, velocity cannot be estimated. Conversely, a common definition of done ensures that the increment produced at the end of sprint is of high quality, with minimal defects.  The definition of done is the soul of the entire Scrum process.
 Before we explore a definition for done, it is important to define another Scrum term: potentially shippable product.
 What is a potentially shippable product?
-
+<p>
 A potentially shippable product is one that has been designed, developed and tested and is therefore ready for distribution to anyone in the company for review or even to any external stakeholder. Adhering to a list of “done” criteria ensures that the sprint product is truly shippable.
 The agile community differs in their opinion of what is shippable and what is potentially shippable. Many agile practitioners believe that potentially shippable is just one sprint away from the release. Others believe that potentially shippable means just that, ready to go to the customer immediately following the sprint. What does this mean for our definition?
 For the sake of building a reference, done in this paper means that the features developed in each sprint should be 100 percent complete, whatever that means for your particular circumstances.
 Am I finished with a feature?
-
+<p>
 You are not finished with a feature until it meets the benchmark defined by done. A very simple definition of done can be encapsulated as follows:
-
+<p>
 Code Complete
-
+<p>
 Test Complete
-
+<p>
 Approved by Product Owner
-
+<p>
 This simplistic benchmark can ensure a favorable set of practices and the discipline to generate an increment of a product, but does not suffice as a reference.
 An improved definition would contain the following details:
-
+<p>
 Code Complete
-
+<p>
 Unit tests written and executed
-
+<p>
 Integration tested
-
+<p>
 Performance tested
-
+<p>
 Documented (just enough)
-
+<p>
 Better. But, it still does not ensure that the product owner is getting a potentially shippable product at the end of the sprint.
 For example, is just mentioning “code complete” enough? Would doing so ensure that source code has been checked in properly in the code library using the best source control management practices and that the code adheres to the established coding guidelines? Would it ensure that the source code has been merged with the release branch and properly tagged?
 Projects need better guidance in terms of what a done means, otherwise the end product of the sprint cannot truly be called shippable.
+<p>
 Building a definition of done
+<p>
 It is difficult to pin down a definition of done that suits all circumstances. The following definition is an attempt towards creating one common definition. This is not end of the road but a humble beginning.  This, again, is intended to be high-level guidance that projects can tweak to suit their environment. In this attempt, different scenarios are considered to ensure necessary checkpoints are met.
 Please be advised that this is intended just a reference and not as a done definition for a particular project. When it comes to agile methodologies, the KISS principle (Keep it Simple, Stupid) should be followed. Even seasoned practitioners would be scared of having such an exhaustive checklist. Therefore, use this just as a reference in building a done definition for your project.  
 A general definition of done can be spelled out in a “done thinking grid” (see Figure 1). The grid components are defined and explained below.
-  
+ <p> 
   <center><img src="/images/Gupta_Figure_1.png" alt="Figure 1"></center>
-
-Column One
-
+<p>
+<b>
+Column One</b>
+<p>
 User Story Clarity
+<p>
 User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.
-Tasks Identified
+Tasks Identified<p>
 		  Tasks for selected user stories have been identified and estimated by the team.
+		  <p>
 		  These first two topics are typically covered in the sprint planning meeting but are mentioned as done criteria for the sake of verification.
-		  Build and package changes 
+		  Build and package changes <p>
+		  
 		  Build and package changes have been communicated to the build master. These changes have been implemented, tested and documented to ensure that they cover the features of the sprint.
-		  Product owner approval
+		  Product owner approval<p>
+		  
 		  Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements
-		  Updating Product Backlog
+		  Updating Product Backlog<p>
+		  
 		  All features not done during the sprint are added back to the product backlog. All incidents/defects not handled during the sprint are added to the product backlog.
-		  Column Two
+		<p><b>  Column Two<p></b>
 		  
-		  Environment ready
-		  Development environment is ready with all third-party tools configured.
-		  Staging environment is ready.
-		  Continuous integration framework is in place. The build engine is configured to schedule hourly, nightly, and release builds.
-		  Desired build automation is in place. Why "desired"? Because there is no end to build automation :)
-		  Test data for the selected features has been created
-		  Design complete
-		  Design analysis is complete as per the user story or theme. UML diagrams are either created or updated for the feature under development.
+		  Environment ready<p>
+		  Development environment is ready with all third-party tools configured.<p>
+		  Staging environment is ready.<p>
+		  Continuous integration framework is in place. The build engine is configured to schedule hourly, nightly, and release builds.<p>
+		  Desired build automation is in place. Why "desired"? Because there is no end to build automation :)<p>
+		  Test data for the selected features has been created<p>
+		  Design complete<p>
+		  Design analysis is complete as per the user story or theme. UML diagrams are either created or updated for the feature under development.<p>
 		  You might need to prototype various components to ensure that they work together.  Wireframes and prototype have been created and approved by the respective stakeholders.
-		  Unit test cases written
-		  Unit test cases have been written for the features to be developed.
-		  Documentation Ready
-		  Documentation (Just enough or whatever the team agrees to) to support the sprint demo is ready
-		  Pre-Release builds 
+		  Unit test cases written<p>
+		  Unit test cases have been written for the features to be developed.<p>
+		  Documentation Ready<p>
+		  Documentation (Just enough or whatever the team agrees to) to support the sprint demo is ready<p>
+		  Pre-Release builds <p>
 		  Pre release builds (hourly/nightly) have been happening and nightly build reports have been published on regular basis. The following could/should be part of pre-release builds:
-		  Compile and execute unit test cases (mandatory)
-		  Creation of cross reference of source code
-		  Execution of automated code reviews for verification of coding rules
-		  Code coverage reports are generated
-		  Detection of duplicate source code
-		  Dependency analysis and generation of design quality matrix (static analysis, cyclomatic complexity)
-		  Auto deployment in staging environment
+		  Compile and execute unit test cases (mandatory)<p>
+		  Creation of cross reference of source code<p>
+		  Execution of automated code reviews for verification of coding rules<p>
+		  Code coverage reports are generated<p>
+		  Detection of duplicate source code<p>
+		  Dependency analysis and generation of design quality matrix (static analysis, cyclomatic complexity)<p>
+		  Auto deployment in staging environment<p>
 		  It comes down to build automation; there is no end to what can be achieved from automated hourly, nightly builds. The team along with the product owner needs to decide on how much build automation is required.
-		  Column Three
+		 <p><b> Column Three</b><p>
 		  
-		  Code Complete
-		  Source code changes are done for all the features in the “to do” list.” Source code has been commented appropriately.
-		  Unit testing is done
-		  Unit test cases have been executed and are working successfully
-		  Code Refactoring
-		  Source code has been refactored to make it comprehensive, maintainable and, amenable to change.
+		  Code Complete<p>
+		  Source code changes are done for all the features in the “to do” list.” Source code has been commented appropriately.<p>
+		  Unit testing is done<p>
+		  Unit test cases have been executed and are working successfully<p>
+		  Code Refactoring<p>
+		  Source code has been refactored to make it comprehensive, maintainable and, amenable to change.<p>
 		  A common mistake is to not keep refactoring in the definition of done. If not taken seriously, refactoring normally spills out to next sprint or, worse, is completely ignored.
-		  Code checkin 
-		  Source code is checked in the code library with appropriate comments added.
+		  Code checkin <p>
+		  Source code is checked in the code library with appropriate comments added.<p>
 		  If project is using tools which help in maintaining traceability between user stories and the respective source code, proper checkin guidelines are followed.
-		  Code merging and tagging
-		  Finalized source code has been merged with the main branch and tagged appropriately (merging and tagging guidelines are to be used)
-		  Column Four
+		  Code merging and tagging<p>
+		  Finalized source code has been merged with the main branch and tagged appropriately (merging and tagging guidelines are to be used)<p>
+		  Column Four<p>
 		  
 		  Automated Code reviews
 		  Automated code review has been completed using the supported tools/technologies. Violations have been shared with the team and the team has resolved all discrepancies to adhere to the coding standard. (Automated code reviews should be hooked up with CI builds.)

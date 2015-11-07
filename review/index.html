@@ -120,7 +120,7 @@
 Work review (particularly code review) should always happen on completion of a kanban card (or feature) that produced any reviewable content. Every component in a project should have at least 2 engineers assigned to review that module. Patches are always sent to the project mailing list, unless there is a need to have a reviewspecific mailing list. The aim should always be that reviews should happen within a day of the patch being sent to the mailing list. Note that review is not just for code (although it is primarily for code, and the majority of this chapter is directly related to reviewing for code in particular) and it also applies to documentation and indeed architecture. FIXME: The Kanban flow integration is very new, being used by Baserock to some extent, but needs review by Paul, Rob Taylor, Lars etc. The flow is as follows: <p>
 <ol type="1">1. The patch should be squashed into a set of sensible orthogonal patches on a feature branch like /. This may be 1 or more. Orthogonal in this case means that no two patches should touch the same area of the code. </li>
    <ul style="list-style-type:disc"> <li> Update the commit message to explain your reasoning for the changes (e.g. if you had to try a few different things before your final version, note that in the commit) </li>
-   <li> Your aim when tidying your patchset for review should be: – it should be to make it easy to review the changes. This can, for example, affect ordering of patches in a series. – when you git blame in the future to find out why a line is the way it is, you should be able to understand why from the commit message </li>
+   <li> Your aim when tidying your patch set for review should be: – it should be to make it easy to review the changes. This can, for example, affect ordering of patches in a series. – when you git blame in the future to find out why a line is the way it is, you should be able to understand why from the commit message </li>
    <li> Patches should be rebased to be on top of master (or the relevant working branch) </li>
    <li> the branch with the patchset should be pushed to the server </LI></UL>
 2. Send this patchset to the mailing list with a suitable covering latter, referencing the kanban card. The cover letter must contain 
@@ -130,17 +130,6 @@ Work review (particularly code review) should always happen on completion of a k
    <li> The kanban card number, if applicable </li>
    <li> The branch that the patch is to land on (if not the master for the project) </li></ul>
   
-  To use git send-email send your patches through the SMTP server, edit ∼/.gitconfig to specify your account settings:</li></ul> <p>
-<p>
-<b>[sendemail] smtpencryption = tls smtpserver = mail.mailserver.co.uk smtpuser = yourldapusername smtpserverport = 587</b><p>
-
- Prerequisites for Ubuntu/Mint:<p>
-
-<b>sudo apt-get install git-email libauthen-sasl-perl sudo -H cpan Net::SMTP::SSL </b><p><p>
-Once your commits are ready to be sent to the mailing list, run the following commands:<p><p>
-
-<b>git format-patch --cover-letter -M origin/master -o outgoing/ edit outgoing/0000-* git send-email outgoing/* </b><p>
-
 <ol type="1"> <li> Move your Kanban card to the review lane, add ‘Author: Your name’ to the results field and deassign the card. </li>
 <li> The reviewer who picks up your card assigns it to themselves (but leaves the card in the review lane) and then will do the review. This should likely happen by replying inline to the mails and commenting. The reviewer should delete sections that are ok (and note this) and only reply to the sections that need comment. This is simply standard email etiquette. </li>
 <li> When the reviewer is finished, they should submit their verdict to both the mailing list (as a response to the patch series root email) and record it on the Kanban card, removing themselves from the assignee list. Then, depending on the project policy, either the patch is refused, approved, or needs further review. In the last case, the card is left for another reviewer to pick up, the other two cases are detailed below. </li>

@@ -1,0 +1,39 @@
+We've already talked about these
+http://thoughtful-solutions.github.io/basic-skills/
+ remove "If you have no preference, then Fedora or Debian is recommended in order that others in the company can support you."
+
+http://thoughtful-solutions.github.io/requirements/flow.html
+        in this diagram
+ http://thoughtful-solutions.github.io/images/flow.png
+Change the "Branch Mustard" To "Branch Requirements" or "Branch Requs"
+
+http://thoughtful-solutions.github.io/done/
+Take this
+        http://thoughtful-solutions.github.io/images/Gupta_Figure_1.png
+and turn it into a HTML Table..
+        Let you click on each Item and have it take you to the appropriate text in say a popup which matches to the boxes.. You have it already in the page..
+        I don't need anything else on that page but that table
+the rest will come over time..
+
+http://thoughtful-solutions.github.io/standup/example.html
+ "\o/ = Here! Here! Here! "
+should be on a line on its own like those above it..
+
+
+http://thoughtful-solutions.github.io/project/
+   remove move everything from
+        "Establishing project accounting"
+down to the end of the page..
+
+Stuff We've not fixed yet
+        http://thoughtful-solutions.github.io/cynefin/
+        Wow so much to say here.. you might want ago at it but let me know if not..
+
+http://thoughtful-solutions.github.io/lego/
+        top page needs a countdown time in which I can entry and it runs in javascript a countdown
+
+http://thoughtful-solutions.github.io/lego/sprint1.html
+        needs the javascript kanban with the cards in for sprint1
+the same with sprint2 and sprint3
+
+        Let me know when this is all fixed

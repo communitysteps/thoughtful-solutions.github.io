@@ -9,12 +9,16 @@ $('#cssmenu > ul > li > a').click(function() {
   }
   if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
     $('#cssmenu ul ul:visible').slideUp('normal');
-    checkElement.slideDown('normal');
+    checkElement.slideDown('visible');
   }
   if($(this).closest('li').find('ul').children().length == 0) {
     return true;
   } else {
     return false;	
-  }		
+  }
+	if($('.active.parent > ul').length > 0)
+	{
+		$('.active.parent > ul').show();
+	}  
 });
 });

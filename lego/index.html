@@ -115,34 +115,7 @@
   <h1 class="title">The Lego Game</h1>
   <center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a_tPQqAy0pM" frameborder="0" allowfullscreen></iframe> <p>
- </center>
- 
- <p><p><center><script type = "text/javascript">
-var timeInSecs;
-var ticker;
-
-function startTimer(secs){
-timeInSecs = parseInt(secs)-1;
-ticker = setInterval("tick()",1000);   
-}
-
-function tick() {
-var secs = timeInSecs;
-if (secs>0) {
-timeInSecs--;
-}
-else {
-clearInterval(ticker); 
-// startTimer(60);  
-}
-
-document.getElementById("countdown").innerHTML = secs;
-}
-
-startTimer(300);  
-
-</script></center>
+<div id="timer">2:00</div>
 
 <p><p><b>Overview</b><p>
  

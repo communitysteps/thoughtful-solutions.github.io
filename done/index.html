@@ -187,60 +187,72 @@ Please be advised that this is intended just a reference and not as a done defin
 A general definition of done can be spelled out in a “done thinking grid” (see Figure 1). The grid components are defined and explained below.<p>
  <p> 
  
-
+ <p>This is the main content. To display a lightbox click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a></p>
+    <div id="light" class="white_content">This is the lightbox content. <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+    <div id="fade" class="black_overlay"></div>
+	
 	 <center><table style="width:90%">
 		 <tr>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">User Story clarity</a> <div id="light" class="white_content"><b>User Story Clarity</b>
-<p>User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div> <div id="fade" class="black_overlay"></div></td>
-
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Task identified</a><div id="light" class="white_content"><b>Tasks Identified</b><p>
-		  Tasks for selected user stories have been identified and estimated by the team.
-		  <p>
-		  These first two topics are typically covered in the sprint planning meeting but are mentioned as done criteria for the sake of verification.<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div> <div id="fade" class="black_overlay"></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Build setup changes</a><div id="light" class="white_content">Build and package changes <p>
-		  
-		  Build and package changes have been communicated to the build master. These changes have been implemented, tested and documented to ensure that they cover the features of the sprint.<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Product Owner Aproval</a><div id="light" class="white_content">Product owner approval<p>
-		  
-		  Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements</td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Product backlog updated</a><div id="light" class="white_content">Updating Product Backlog<p>
-		  
-		  All features not done during the sprint are added back to the product backlog. All incidents/defects not handled during the sprint are added to the product backlog.<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
+			 <td>Row 1</td>
+			 <td>User Story clarity</td>
+			 <td>Task identified</td> 
+			 <td>Build setup changes</td>
+			 <td>Product Owner Aproval</td>
+			 <td>Product backlog updated</td>
 		 </tr>
 		 <tr>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Environment ready</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Design Complete</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Documentation</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Pre release builds</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			 <td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Unit test cases written</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
+			 <td>Row 2</td>
+			<td>Environment ready</td>
+			 <td>Design Complete</td> 
+			 <td>Documentation</td>
+			 <td>Pre release builds</td>
+			 <td>Unit test cases written</td>
 		</tr>
 		<tr>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"> Code complete</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Unit tests executed</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Refactoring</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Code checkin</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Code merging and tagging</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
+		<td>row 3</td>
+			<td>Code complete</td>
+			<td>Unit tests executed</td>
+			<td>Refactoring</td>
+			<td>Code checkin</td>
+			<td>Code merging and tagging</td>
 		 </tr>
 		 <tr>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Automated code review</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Peer review</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Code coverage</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Burndown chart ready</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Release build</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"> Close</a></div></td>
+		    <td>Row 4</td>
+			<td>Automated code review</td>
+			<td>Peer review</td>
+			<td>Code coverage</td>
+			<td>Burndown chart ready</td>
+			<td>Release build</td>
 		</tr>
 		<tr>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Functional testing</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Regression testing</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Performance testing</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Acceptance testing</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
-			<td><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Closure</a><div id="light" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div></td>
+				<td>Riw 5</td>
+			<td>Functional testing</td>
+			<td>Regression testing</td>
+			<td>Performance testing</td>
+			<td>Acceptance testing</td>
+			<td>Closure</td>
 			</tr>
 		 </table>
 <p>
 <b>
 'Done' thinking grid</b></center><p>
 <p>
-
+User Story Clarity
+<p>
+User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.
+Tasks Identified<p>
+		  Tasks for selected user stories have been identified and estimated by the team.
+		  <p>
+		  These first two topics are typically covered in the sprint planning meeting but are mentioned as done criteria for the sake of verification.
+		  Build and package changes <p>
+		  
+		  Build and package changes have been communicated to the build master. These changes have been implemented, tested and documented to ensure that they cover the features of the sprint.
+		  Product owner approval<p>
+		  
+		  Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements
+		  Updating Product Backlog<p>
+		  
+		  All features not done during the sprint are added back to the product backlog. All incidents/defects not handled during the sprint are added to the product backlog.
 		<p><b>  Column Two<p></b>
 		  
 		  Environment ready<p>

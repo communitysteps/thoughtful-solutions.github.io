@@ -133,20 +133,6 @@ The above usually requires ensuring that everyone knows what is happening, who i
 <p><p>
 <b>Establishing project accounting</b><p><p>
 
-Establishing the project groups on the git server Using the ct-new-project tool available from the git server, run ct-new-project XXX pmname where XXX is the project code allocated by Stephen or Maria and pmname is the username of the project manager who will be running the project. Once that completes, you can add more people to the appropriate groups by use of ctgit group adduser ctXXX-role person where role is one of readers, writers or admins as appropriate and person is the user name on the git server of the engineer or additional PM.
-<p><p>
-Pushing the initial project admin wiki to the git server In your git workspace for ctXXX:
-<p><p>
-\$ git clone ssh://address@somewhere pm-wiki \$ cd pm-wiki ... do any edits you want before the initial push and commit them ... \$ git remote set-url origin  ssh://address@somewhere \$ ctgit create ctXXX/pm-wiki \$ git push -u origin master You can view the newly rendered project.
-<p><p>
-Day-to-day PM Role FIXME: Incomplete In and among everything else, update the pm wiki for the project by editing markdown documents in the ctXXX/pm-wiki clone you have and then commit and push them to the server. The website will automatically be rendered from the content you push.
-<p><p>
-Risk Analysis FIXME: Incomplete When doing a risk analysis, you should start your first by copying the risk analysis template from the samples directory into your risks tree of your project management wiki. Give the analysis a name based on the milestone, or date, or some other identifying mark and then begin to work your way through it. For later risk analyses, you may copy the previous analysis in the risks tree if you do not believe that the details will have changed significantly. For each listed risk, determine the likelihood of it occurring and the likely impact should it occur. Then combine those and record an overall risk level along with notes of your assessment. Consider methods to mitigate against the risk causing problems to the project and record those also. Possible mitigation factors are noted as examples in the sample risk analysis document. Engineers can be a valuable source of input on risk analysis. Everyone on a project should act together to determine the level of risk and the ways to mitigate against them. In general risk analysis should be done at the start of any major portion of the project. If you have milestones, a risk analysis might be done at the start of each milestone. If your staffing on the project alters drastically, or the customer piles on many change requests, then another analysis might be called for.
-<p><p>
-Internal Project Reporting FIXME
-<p><p>
-Customer Reporting FIXME
-</div>
 
     </div>
     

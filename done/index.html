@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="http://thoughtful-solutions.github.io/public/css/hyde.css">
   <link rel="stylesheet" href="http://thoughtful-solutions.github.io/public/css/syntax.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+  <link rel="stylesheet" href="table.css">
 
   <!-- Icons -->
   <link rel="shortcut icon" href="public/favicon.png">
@@ -25,34 +26,9 @@
   <link href="../public/menu_source/styles.css" rel="stylesheet" type="text/css">
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type='text/javascript' src='../public/menu_source/menu_jquery.js'></script>
+  <script type='text/javascript' src='table.css'></script>
   
   <style>
-    .black_overlay{
-        display: none;
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        z-index:1001;
-        -moz-opacity: 0.8;
-        opacity:.80;
-        filter: alpha(opacity=80);
-    }
-    .white_content {
-        display: none;
-        position: fixed;
-        top: 25%;
-        left: 25%;
-        width: 50%;
-        height: 50%;
-        padding: 16px;
-        border: 16px solid orange;
-        background-color: white;
-        z-index:1002;
-        overflow: auto;
-    }
 </style>
   
 </head>
@@ -151,147 +127,357 @@ For the sake of building a reference, done in this paper means that the features
  
  
 	
-	 <center><table style="width:90%">
+	   <center><table style="width:90%">
 		 <tr>
-			 <td>User Story clarity</td>
-			 <td>Task identified</td> 
-			 <td>Build setup changes</td>
-			 <td>Product Owner Aproval</td>
-			 <td>Product backlog updated</td>
-		 </tr>
-		 <tr>
-			 <td>Environment ready</td>
-			 <td>Design Complete</td> 
-			 <td>Documentation</td>
-			 <td>Pre release builds</td>
-			 <td>Unit test cases written</td>
-		</tr>
-		<tr>
-			<td>Code complete</td>
-			<td>Unit tests executed</td>
-			<td>Refactoring</td>
-			<td>Code checkin</td>
-			<td>Code merging and tagging</td>
-		 </tr>
-		 <tr>
-			<td>Automated code review</td>
-			<td>Peer review</td>
-			<td>Code coverage</td>
-			<td>Burndown chart ready</td>
-			<td>Release build</td>
-		</tr>
-		<tr>
-			<td>Functional testing</td>
-			<td>Regression testing</td>
-			<td>Performance testing</td>
-			<td>Acceptance testing</td>
-			<td>Closure</td>
-			</tr>
-		 </table>
+ <td><label for="our-popup-1">User Story clarity</label></td>
+			 <td><label for="our-popup-2">Task identified</label></td> 
+			 <td><label for="our-popup-3">Build setup changes</label></td>
+			 <td><label for="our-popup-4">Product Owner Aproval</label></td>
+			 <td><label for="our-popup-5">Product backlog updated</label></td>
+		 </tr>  
+	   <tr>
+<td><label for="our-popup-6">Environment Ready</label></td>
+<td><label for="our-popup-7">Design Complete</label></td>
+<td><label for="our-popup-8">Documentation</label></td>
+<td><label for="our-popup-9">Pre Release Builds</label></td>
+<td><label for="our-popup-10">Unit Test Cases Written</label></td>
+    </tr>
+     <tr>
+<td><label for="our-popup-11">Code Complete</label></td>
+<td><label for="our-popup-12">Unit Tests Executed</label></td>
+<td><label for="our-popup-13">Refactoring</label></td>
+<td><label for="our-popup-14">Code Checkin</label></td>
+<td><label for="our-popup-15">Code Merging and Tagging</label></td>
+    </tr>
+     <tr>
+<td><label for="our-popup-16">Automated Code Review</label></td>
+<td><label for="our-popup-17">Peer Review</label></td>
+<td><label for="our-popup-18">Code Coverage</label></td>
+<td><label for="our-popup-19">Burndown Chart Ready</label></td>
+<td><label for="our-popup-20">Release Build</label></td>
+    </tr>
+     <tr>
+<td><label for="our-popup-21">Functional Testing</label></td>
+<td><label for="our-popup-22">Regression Testing</label></td>
+<td><label for="our-popup-23">Performance Testing</label></td>
+<td><label for="our-popup-24">Acceptance Testing</label></td>
+<td><label for="our-popup-25">Closure</label></td>
+    </tr></table>
+    
 <p>
-<b>
-'Done' thinking grid</b></center><p>
+	<!-- be sure to enclose the popup into a parent wrapper when using many popups-->   
+	<span>    
+		<input type="checkbox" id="our-popup-1"
+class="smoosh" />
+		<label for="our-popup-1" class="overlay"></label>
+		<div class="overlay-dialogue">    
+			<h2>User Story Clarity</h2>     
+			<p>User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.</p>     
+			<label for="our-popup-1">Close</label> 
+		</div>   
+	</span>
+
+	    
+    
+	<span>    
+		<input type="checkbox" id="our-popup-2" class="smoosh" />
+		<label for="our-popup-2" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Task Identified</h2>     
+            <p>Tasks for selected user stories have been identified and estimated by the team.</p>			<label for="our-popup-2">Close</label>    
+		</div>   </span>       
+
+	<span>    
+		<input type="checkbox" id="our-popup-3" class="smoosh" />
+		<label for="our-popup-3" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>	Build setup changes</h2>     
+			<p>Build and package changes have been communicated to the build master. These changes have been implemented, tested and documented to ensure that they cover the features of the sprint. Product owner approval</p>     
+			<label for="our-popup-3">Close</label>    
+		</div>   </span>       
+
+
+	<span>    
+		<input type="checkbox" id="our-popup-4" class="smoosh" />
+		<label for="our-popup-4" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Product owner approval</h2>     
+			<p>Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements </p>     
+			<label for="our-popup-4">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-5" class="smoosh" />
+		<label for="our-popup-5" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Updating Product Backlog</h2>     
+			<p>All features not done during the sprint are added back to the product backlog. All incidents/defects not handled during the sprint are added to the product backlog.</p>     
+			<label for="our-popup-5">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-6" class="smoosh" />
+		<label for="our-popup-6" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Environment ready</h2>     
+			<p>Development environment is ready with all third-party tools configured.
 <p>
-User Story Clarity
+Staging environment is ready.
 <p>
-User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.
-Tasks Identified<p>
-		  Tasks for selected user stories have been identified and estimated by the team.
-		  <p>
-		  These first two topics are typically covered in the sprint planning meeting but are mentioned as done criteria for the sake of verification.
-		  Build and package changes <p>
+Continuous integration framework is in place. The build engine is configured to schedule hourly, nightly, and release builds.
+<p>
+Desired build automation is in place.
+    <p>Why "desired"? Because there is no end to build automation.<p>
+
+Test data for the selected features has been created</p>     
+			<label for="our-popup-6">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-7" class="smoosh" />
+		<label for="our-popup-7" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Design complete</h2>     
+			<p>
+Design analysis is complete as per the user story or theme. UML diagrams are either created or updated for the feature under development.
+<p>
+You might need to prototype various components to ensure that they work together. Wireframes and prototype have been created and approved by the respective stakeholders. Unit test cases written
+<p>
+Unit test cases have been written for the features to be developed.</p>     
+			<label for="our-popup-7">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-8" class="smoosh" />
+		<label for="our-popup-8" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Documentation Ready</h2>     
+			<p>Documentation (just enough or whatever the team agrees to) to support the sprint demo is ready</p>     
+			<label for="our-popup-8">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-9" class="smoosh" />
+		<label for="our-popup-9" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Pre Release Builds</h2>     
+			<p>Pre-Release builds (hourly/nightly) have been happening and nightly build reports have been published on regular basis. The following could/should be part of pre-release builds: Compile and execute unit test cases (mandatory)
+<p>
+
+Creation of cross reference of source code
+<p>
+
+Execution of automated code reviews for verification of coding rules
+<p>
+
+Code coverage reports are generated
+<p>
+
+Detection of duplicate source code
+<p>
+
+Dependency analysis and generation of design quality matrix (static analysis, cyclomatic complexity)
+<p>
+Auto deployment in staging environment</p>     
+			<label for="our-popup-9">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-10" class="smoosh" />
+		<label for="our-popup-10" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Unit Test Cases</h2>     
+			<p>It comes down to build automation; there is no end to what can be achieved from automated hourly, nightly builds. The team along with the product owner needs to decide on how much build automation is required.</p>     
+			<label for="our-popup-10">Close</label>    
+		</div>   </span>       
+
+	<span>    
+		<input type="checkbox" id="our-popup-11" class="smoosh" />
+		<label for="our-popup-11" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Code Complete</h2>     
+			<p>Source code changes are done for all the features in the “to do” list.”<p> Source code has been commented appropriately.</p>     
+			<label for="our-popup-11">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-12" class="smoosh" />
+		<label for="our-popup-12" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Unit testing is done</h2>     
+			<p>Unit test cases have been executed and are working successfully</p>     
+			<label for="our-popup-12">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-13" class="smoosh" />
+		<label for="our-popup-13" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Code Refactoring</h2>     
+			<p>
+
+Source code has been refactored to make it comprehensive, maintainable and, amenable to change.
+<p>
+A common mistake is to not keep refactoring in the definition of done. If not taken seriously, refactoring normally spills out to next sprint or, worse, is completely ignored. </p>     
+			<label for="our-popup-13">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-14" class="smoosh" />
+		<label for="our-popup-14" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Code checkin</h2>     
+			<p>
+
+Source code is checked in the code library with appropriate comments added.
+
+If project is using tools which help in maintaining traceability between user stories and the respective source code, proper checkin guidelines are followed. </p>     
+			<label for="our-popup-14">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-15" class="smoosh" />
+		<label for="our-popup-15" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Code merging and tagging</h2>     
+			<p>
+
+Finalized source code has been merged with the main branch and tagged appropriately (merging and tagging guidelines are to be used)</p>     
+			<label for="our-popup-15">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-16" class="smoosh" />
+		<label for="our-popup-16" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Automated Code Reviews</h2>     
+			<p>Automated code review has been completed using the supported tools/technologies. Violations have been shared with the team and the team has resolved all discrepancies to adhere to the coding standard. (Automated code reviews should be hooked up with CI builds.)</p>     
+			<label for="our-popup-16">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-17" class="smoosh" />
+		<label for="our-popup-17" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Peer reviews</h2>     
+			<p>
+
+Peer reviews are done. If pair programming is used, a separate peer review session might not be required.</p>     
+			<label for="our-popup-17">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-18" class="smoosh" />
+		<label for="our-popup-18" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Code coverage is achieved</h2>     
+			<p>
+Code coverage records for each package are available and whatever the team has decided as the minimum benchmark is achieved.</p>     
+			<label for="our-popup-18">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-19" class="smoosh" />
+		<label for="our-popup-19" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Project metrics are ready</h2>     
+			<p>
+
+Burndown chart has been updated regularly and is up to date.</p>     
+			<label for="our-popup-19">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-20" class="smoosh" />
+		<label for="our-popup-20" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Build and packaging
+</h2>     
+			<p>
+A Build (successful) is done using continuous integration framework. Change log report has been generated from Code Library and Release notes have been created. Deliverables have been moved to release area. Build deployment in staging environment
+<p>
+Build deliverables are deployed in staging environment. If it is easy, this step should be automated.</p>     
+			<label for="our-popup-20">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-21" class="smoosh" />
+		<label for="our-popup-21" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Automated testing</h2>     
+			<p>
+
+All types of automated test cases have been executed and a test report has been generated. <p>All incidents/defects are reported. Manual testing Quality assurance team has reviewed the reports generated from automation testing and conducted necessary manual test cases to ensure that tests are passing.<p> All incidents/defects are reported. Build issues If any integration or build issues are found, the necessary steps are repeated and respective “Done” points are adhered to. </p>     
+			<label for="our-popup-21">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-22" class="smoosh" />
+		<label for="our-popup-22" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Regression Testing</h2>     
+			<p>Regression testing done Regression testing is done to ensure that defects have not been introduced in the unchanged area of the software. </p>     
+			<label for="our-popup-22">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-23" class="smoosh" />
+		<label for="our-popup-23" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Performance testing done</h2>     
+			<p>A common mistake is to not keep performance testing in the definition of done. This is an important aspect. Most performance issues are design issues and are hard to fix at a later stage. </p>     
+			<label for="our-popup-23">Close</label>    
+		</div>   </span>       
+	</body> 
+
+	<span>    
+		<input type="checkbox" id="our-popup-24" class="smoosh" />
+		<label for="our-popup-24" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Acceptance testing done </h2>     
+			<p>Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements (see also Product Owner Approval). </p>     
+			<label for="our-popup-24">Close</label>    
+		</div>   </span>       
+	
+
+	<span>    
+		<input type="checkbox" id="our-popup-25" class="smoosh" />
+		<label for="our-popup-25" class="overlay"></label>  
+		<div class="overlay-dialogue">     
+			<h2>Closure</h2>     
+			<p>All finished user stories/tasks are marked complete/resolved. Remaining hours for task set to zero before closing the task. Other necessary/optional activities Anything which is very specific to the project environment These might include: - Security audit sign off - Deployable on multiple platforms such as Windows, Linux, and Mac OS X Summary Preparing a single definition of done that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. Organizations that have just started with agile may find it difficult to reach a mature level immediately; therefore, they should take the steps, sprint-by-sprint, to improve their done definition. Feedback from retrospective meetings should also help to improve the definition of done. Whether you use this grid or develop one of your own, remember that solid definition of done is essential to producing potentially shippable products at the end of each iteration.</p>     
+			<label for="our-popup-25">Close</label>    
+		</div>   </span>  
+		<p><b></b></center><p>
 		  
-		  Build and package changes have been communicated to the build master. These changes have been implemented, tested and documented to ensure that they cover the features of the sprint.
-		  Product owner approval<p>
-		  
-		  Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements
-		  Updating Product Backlog<p>
-		  
-		  All features not done during the sprint are added back to the product backlog. All incidents/defects not handled during the sprint are added to the product backlog.
-		<p><b>  Column Two<p></b>
-		  
-		  Environment ready<p>
-		  Development environment is ready with all third-party tools configured.<p>
-		  Staging environment is ready.<p>
-		  Continuous integration framework is in place. The build engine is configured to schedule hourly, nightly, and release builds.<p>
-		  Desired build automation is in place. Why "desired"? Because there is no end to build automation :)<p>
-		  Test data for the selected features has been created<p>
-		  Design complete<p>
-		  Design analysis is complete as per the user story or theme. UML diagrams are either created or updated for the feature under development.<p>
-		  You might need to prototype various components to ensure that they work together.  Wireframes and prototype have been created and approved by the respective stakeholders.
-		  Unit test cases written<p>
-		  Unit test cases have been written for the features to be developed.<p>
-		  Documentation Ready<p>
-		  Documentation (Just enough or whatever the team agrees to) to support the sprint demo is ready<p>
-		  Pre-Release builds <p>
-		  Pre release builds (hourly/nightly) have been happening and nightly build reports have been published on regular basis. The following could/should be part of pre-release builds:
-		  Compile and execute unit test cases (mandatory)<p>
-		  Creation of cross reference of source code<p>
-		  Execution of automated code reviews for verification of coding rules<p>
-		  Code coverage reports are generated<p>
-		  Detection of duplicate source code<p>
-		  Dependency analysis and generation of design quality matrix (static analysis, cyclomatic complexity)<p>
-		  Auto deployment in staging environment<p>
-		  It comes down to build automation; there is no end to what can be achieved from automated hourly, nightly builds. The team along with the product owner needs to decide on how much build automation is required.
-		 <p><b> Column Three</b><p>
-		  
-		  Code Complete<p>
-		  Source code changes are done for all the features in the “to do” list.” Source code has been commented appropriately.<p>
-		  Unit testing is done<p>
-		  Unit test cases have been executed and are working successfully<p>
-		  Code Refactoring<p>
-		  Source code has been refactored to make it comprehensive, maintainable and, amenable to change.<p>
-		  A common mistake is to not keep refactoring in the definition of done. If not taken seriously, refactoring normally spills out to next sprint or, worse, is completely ignored.
-		  Code checkin <p>
-		  Source code is checked in the code library with appropriate comments added.<p>
-		  If project is using tools which help in maintaining traceability between user stories and the respective source code, proper checkin guidelines are followed.
-		  Code merging and tagging<p>
-		  Finalized source code has been merged with the main branch and tagged appropriately (merging and tagging guidelines are to be used)<p>
-		  <b>Column Four<p></b>
-		  
-		  Automated Code reviews<p>
-		  Automated code review has been completed using the supported tools/technologies. Violations have been shared with the team and the team has resolved all discrepancies to adhere to the coding standard. (Automated code reviews should be hooked up with CI builds.)
-		  Peer reviews<p>
-		  Peer reviews are done. If pair programming is used, a separate peer review session might not be required.<p>
-		  Code coverage is achieved<p>
-		  Code coverage records for each package are available and whatever the team has decided as the minimum benchmark is achieved.<p>
-		  Project metrics are ready<p>
-		  Burndown chart has been updated regularly and is up to date.<p>
-		  Release Build<p>
-		  Build and packaging<p>
-		  A Build (successful) is done using continuous integration framework. Change log report has been generated from Code Library and Release notes have been created. Deliverables have been moved to release area.
-		  Build deployment in staging environment<p>
-		  Build deliverables are deployed in staging environment. If it is easy, this step should be automated.<p>
-		  <b>Column Five<p></b>		  Functional testing done<p>
-		  Automated testing<p>
-		  All types of automated test cases have been executed and a test report has been generated. All incidents/defects are reported.
-		  Manual testing
-		  Quality assurance team has reviewed the reports generated from automation testing and conducted necessary manual test cases to ensure that tests are passing. All incidents/defects are reported.
-		  Build issues
-		  If any integration or build issues are found, the necessary steps are repeated and respective “Done” points are adhered to.
-		  Regression testing done
-		  Regression testing is done to ensure that defects have not been introduced in the unchanged area of the software.
-		  Performance testing done
-		  A common mistake is to not keep performance testing in the definition of done. This is an important aspect. Most performance issues are design issues and are hard to fix at a later stage.
-		  Acceptance testing done
-		  Each finished user story has been passed through UAT (User Acceptance Testing) and signed off as meeting requirements (see also Product Owner Approval).
-		  Closure
-		  All finished user stories/tasks are marked complete/resolved. Remaining hours for task set to zero before closing the task.
-		  Other necessary/optional activities
-		  Anything which is very specific to the project environment
-		  These might include:
-		  - Security audit sign off
-		  - Deployable on multiple platforms such as Windows, Linux, and Mac OS X
-		  Summary
-		  Preparing a single definition of done that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment.
-		  Organizations that have just started with agile may find it difficult to reach a mature level immediately; therefore, they should take the steps, sprint-by-sprint, to improve their done definition. Feedback from retrospective meetings should also help to improve the definition of done.
-		  Whether you use this grid or develop one of your own, remember that solid definition of done is essential to producing potentially shippable products at the end of each iteration.
-</li>
+
 </div>
 
     </div>
-    
-    
+   
 
   </body>
+   Summary
+		  Preparing a single definition of done that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment.
+		  Organizations that have just started with agile may find it difficult to reach a mature level immediately; therefore, they should take the steps, sprint-by-sprint, to improve their done definition. Feedback from retrospective meetings should also help to improve the definition of done.
+		  Whether you use this grid or develop one of your own, remember that solid definition of done is essential to producing potentially shippable products at the end of each iteration.
+    
 </html>

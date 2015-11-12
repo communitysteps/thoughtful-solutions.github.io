@@ -29,6 +29,10 @@
   <script src="countdown.js"></script>
  
 <script src="../public/countdown/countdown.js" type="text/javascript"></script>
+<link href="../public/css/timer.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="countdown2"></script>
+
+        </div>
 </head>
 
 
@@ -117,15 +121,14 @@
       <div class="post">
   <h1 class="title">The Lego Game</h1>
  
-<center><script type="application/javascript">
-var myCountdown2 = new Countdown({
-									time: 300, 
-									width:150, 
-									height:80, 
-									rangeHi:"minute"	// <- no comma on last item!
-									});
-
-</script></center>
+<center>    <div class="timer">
+            <span class="minute">00</span>:<span class="second">00</span>
+        </div>
+        <div class="control">
+            <button onClick="timer.start(1000)">Start</button> 
+            <button onClick="timer.stop()">Pause</button> 
+            <button onClick="timer.reset(300)">Reset</button> 
+            </div></center>
 <p><p><b>Overview</b><p>
  
 The Lego Game is a fun way to understand some concepts of Agile and Scrum Development. This game can be conducted with a project team before or after the completion of their project Inception Framework, if their project will follow Agile/Scrum development.

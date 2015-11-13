@@ -72,4 +72,4 @@ label {  line-height: 120%;  color: blue; }
 label:hover {  color: orangered; } 
 label:active {  line-height: 90%;  color: orange; } 
 
-body {  margin:  0 5% 50pt 10%; }
+body {  margin:  0 0% 50pt 0%; }

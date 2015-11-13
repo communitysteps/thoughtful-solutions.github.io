@@ -136,7 +136,7 @@
   content: '»';
   position: absolute;
   left: 10px;
-  color: #e94f31;
+  color: #888;
 }
 #cssmenu ul ul a:hover {
   color: #e94f31;

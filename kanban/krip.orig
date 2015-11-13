@@ -3,6 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 		<title>Kanban Board</title>
+		<meta name="author" content="Bob Cravens" />
+		<link type="image/png" href="../../Content/images/author_icon.png" rel="shortcut icon" />
+	
 		<link type="text/css" href="../_common/css/demo.css" rel="stylesheet" />
 		<link type="text/css" href="Scripts/jquery-ui/development-bundle/themes/base/ui.all.css" rel="stylesheet" />	
 		<link type="text/css" href="Scripts/jquery-ui/development-bundle/themes/ui-darkness/ui.all.css" rel="stylesheet" />	
@@ -17,7 +20,16 @@
 	</head>
 	<body>
 	
+		<div>
+			<a href="http://blog.bobcravens.com/">Visit Blog</a>
+		</div>
+	
+		<div>
+			<h2>Kanban Board Concept</h2>
+			<p>This page uses only HTML, CSS and JavaScript (jQuery &amp; jQuery UI).</p>
+		</div>
 		
+		<h3>Project ABC</h3>  
 		<div id="lanes"> 
 		 
 			<div id="stories-div" class="column last-column">

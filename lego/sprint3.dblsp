@@ -117,35 +117,13 @@
       <div class="post">
   <h1 class="title">The Lego Game Sprint 3</h1><p>
   
-  <table cellpadding="0" cellspacing="0" class="c18"><tbody><tr class="c16"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">
-  Sprint 3</span></p></td><td class="c0" colspan="1" rowspan="1"><p class="c19 c9"><span class="c5"></span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c5">Customers should hand out the stories for Sprint three.</span></p></td></tr><tr class="c40"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">Sprint 3: Estimation</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">05</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c3" colspan="1" rowspan="1"><p class="c7"><span class="c21">Sprint 3-. Sign-up</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">05</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c3" colspan="1" rowspan="1"><p class="c7"><span class="c21">Sprint 3: Development</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">05</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">Sprint 3: QA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Showcase</span></p></td>
-  
-  <td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">05</span></p></td>
-  
-  <td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr>
-  
-  <tr class="c57"><td class="c20" colspan="1" rowspan="1"><p class="c7">
-  
-  <span class="c21">
-  
-  Close</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">20
-  
-  </span>
+  <table cellpadding="0" cellspacing="0" class="c18"><tbody><tr class="c16"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">ITERATION 3</span></p></td><td class="c0" colspan="1" rowspan="1"><p class="c19 c9"><span class="c5"></span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c5">Customers should hand out the stories for iteration three.</span></p></td></tr><tr class="c40"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">Iteration 3: Estimation</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">5</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c3" colspan="1" rowspan="1"><p class="c7"><span class="c21">Iteration 3-. Sign-up</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">5</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c3" colspan="1" rowspan="1"><p class="c7"><span class="c21">Iteration 3: Development</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">5</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">Iteration 3: QA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Showcase</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">5</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c16"><td class="c3" colspan="1" rowspan="1"><p class="c1 c44"><span class="c5"></span></p></td><td class="c0" colspan="1" rowspan="1"><p class="c9 c19"><span class="c5"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2 c9"><span class="c5"></span></p></td></tr><tr class="c57"><td class="c20" colspan="1" rowspan="1"><p class="c7"><span class="c21">Close</span></p></td><td class="c22" colspan="1" rowspan="1"><p class="c19"><span class="c21">2</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c61"><span class="c5">The start of the final discussion should cover these slightly broader topics</span></p><p class="c49"><span class="c5">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Role of the Product Owner: Where did the Product Owner help? When</span></p><p class="c30"><span class="c5">was the Product Owner annoying?</span></p><p class="c38"><span class="c5">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Redesign / Simple design: What did you have to redesign? What</span></p><p class="c30"><span class="c5">design choices that you made early on remained consistent throughout</span></p><p class="c30"><span class="c5">the exercise? What were these choices characteristics?</span></p><p class="c17"><span class="c5">Elicit the points from the participants:</span></p><p class="c29"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iterative development</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time Boxing</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adaptive Planning</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evolutionary development</span></p><p class="c47 c55"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback.</span></p><p class="c35"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer Driven vs Risk Driven</span></p><p class="c33"><span class="c5">Discuss the points in any order, but discuss one point at a time. If there is more</span></p><p class="c2"><span class="c5">than one team participating, be sure to compare and contrast each team&#39;s</span></p><p class="c2"><span class="c5">experiences on that topic. Once you have covered most/all the points, talk about</span></p><p class="c2"><span class="c5">what new things were learned in this session. Use the white boards to write new terms and concepts.</span></p><p class="c48"><span class="c5">Elicit the points from the participants</span>
   
   </p>
   
   </td>
   
-  <td class="c6" colspan="1" rowspan="1">
-  
-  <p class="c61">
-  
-  <span class="c5">The start of the final discussion should cover these slightly broader topics</span></p><p class="c49"><span class="c5">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Role of the Product Owner: Where did the Product Owner help? When</span></p><p class="c30"><span class="c5">was the Product Owner annoying?</span></p><p class="c38"><span class="c5">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Redesign / Simple design: What did you have to redesign? What</span></p><p class="c30"><span class="c5">design choices that you made early on remained consistent throughout</span></p><p class="c30"><span class="c5">the exercise? What were these choices characteristics?</span></p><p class="c17"><span class="c5">Elicit the points from the participants:</span></p><p class="c29"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iterative development</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time Boxing</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adaptive Planning</span></p><p class="c38"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evolutionary development</span></p><p class="c47 c55"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback.</span></p><p class="c35"><span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer Driven vs Risk Driven</span></p><p class="c33"><span class="c5">Discuss the points in any order, but discuss one point at a time. If there is more</span></p><p class="c2"><span class="c5">than one team participating, be sure to compare and contrast each team&#39;s</span></p><p class="c2"><span class="c5">experiences on that topic. Once you have covered most/all the points, talk about</span></p><p class="c2"><span class="c5">what new things were learned in this session. Use the white boards to write new terms and concepts.</span></p><p class="c48"><span class="c5">Elicit the points from the participants</span></p></td></tr>
-  
-  
-  
-  
-  
+  </tr>
   
   <tr class="c25">
   
@@ -163,7 +141,7 @@
   
   <p class="c13">
   
-  <span class="c5"></span>
+  <span class="c5">&bull;</span>
   
   </p>
   
@@ -173,7 +151,7 @@
   
   <p class="c15">
   
-  <span class="c5">&bull; Estimation</span>
+  <span class="c5">Estimation</span>
   
   </p>
   
@@ -210,7 +188,23 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Sprint &ndash; Time-boxed duration for software development. This is usually 2 to 4 weeks.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c52">
+  
+  <span class="c5">Iteration &ndash; Time-boxed duration for software development. This is</span>
+  
+  </p>
+  
+  <p class="c36">
+  
+  <span class="c5">usually 2 to 4 weeks.</span>
   
   </p>
   
@@ -248,7 +242,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Relative Complexity</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Relative Complexity</span>
   
   </p>
   
@@ -286,7 +290,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Points &ndash; Stories are estimated for effort using a scale of 1-5 or a</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Points &ndash; Stories are estimated for effort using a scale of 1-5 or a</span>
   
   </p>
   
@@ -324,7 +338,19 @@
   
   <p class="c9 c13">
   
-  <span class="c5">&bull; Fibonacci sequence (1, 2, 3,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5, 8....).</span>
+  <span class="c5">
+  
+  </span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Fibonacci sequence (1, 2, 3,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5, 8....).</span>
   
   </p>
   
@@ -360,7 +386,17 @@
   
   <td class="c24" colspan="1" rowspan="1"><p class="c13">
   
-  <span class="c5">&bull; Velocity &ndash; Number of points consistently completed per Sprint.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Velocity &ndash; Number of points consistently completed per iteration.</span>
   
   </p>
   
@@ -398,7 +434,21 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Spiking: Introduce the concept of spikes being stories in Iterations to get insights for estimating for next iterations.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Spiking: Introduce the concept of spikes being stories in Iterations to</span>
+  
+  </p><p class="c15">
+  
+  <span class="c5">get insights for estimating for next iterations.</span>
   
   </p></td></tr><tr class="c11"><td class="c12" colspan="1" rowspan="1">
   
@@ -426,7 +476,17 @@
   
   <span class="c5">
   
-  &bull; Sprint 0</span>
+  </span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c53 c47">
+  
+  <span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iteration 0</span>
   
   </p>
   
@@ -466,7 +526,17 @@
   
   <span class="c5">
   
- &bull; Spiking at different times</span>
+  </span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c34" colspan="1" rowspan="1">
+  
+  <p class="c47 c53">
+  
+  <span class="c5">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spiking at different times</span>
   
   </p>
   
@@ -504,7 +574,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; User Story</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c34" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">User Story</span>
   
   </p>
   
@@ -542,7 +622,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Retrospective</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Retrospective</span>
   
   </p>
   
@@ -576,7 +666,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Self organizing team</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Self organizing team</span>
   
   </p>
   
@@ -614,7 +714,17 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Hangover &ndash; The number of signed-up points left incomplete in Sprint.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Hangover &ndash; The number of signed-up points left incomplete in iteration.</span>
   
   </p>
   
@@ -654,7 +764,17 @@
   
   <span class="c5">
   
-  These are a hangover to the next Sprint.</span>
+  </span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">These are a hangover to the next iteration.</span>
   
   </p>
   
@@ -692,7 +812,23 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Acceptance Criteria/Definition of Done &ndash; Analysts/Developers should ask the customer when they will consider a story done.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Acceptance Criteria/Definition of Done &ndash; Analysts/Developers should</span>
+  
+  </p>
+  
+  <p class="c15">
+  
+  <span class="c5">ask the customer when they will consider a story done.</span>
   
   </p>
   
@@ -726,7 +862,23 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Bug &ndash; Any piece of functional or non-functional requirements incomplete or not meeting the acceptance criteria for a story is a bug.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c10" colspan="1" rowspan="1">
+  
+  <p class="c15">
+  
+  <span class="c5">Bug &ndash; Any piece of functional or non-functional requirements</span>
+  
+  </p>
+  
+  <p class="c15">
+  
+  <span class="c5">incomplete or not meeting the acceptance criteria for a story is a bug.</span>
   
   </p>
   
@@ -764,7 +916,23 @@
   
   <p class="c13">
   
-  <span class="c5">&bull; Showcase &ndash; An all team meeting that is primarily aimed at displaying functionality developed during an Sprint to the Product Owner.</span>
+  <span class="c5">&bull;</span>
+  
+  </p>
+  
+  </td>
+  
+  <td class="c41" colspan="1" rowspan="1">
+  
+  <p class="c50">
+  
+  <span class="c5">Showcase &ndash; An all team meeting that is primarily aimed at displaying</span>
+  
+  </p>
+  
+  <p class="c46">
+  
+  <span class="c5">functionality developed during an iteration to the Product Owner.</span>
   
   </p>
   
